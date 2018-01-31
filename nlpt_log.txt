@@ -36,3 +36,4 @@ nn:
 
 
 rnn:
+    *rnn\lyrics\keras_gen_rnn* + (fW2I fix)
