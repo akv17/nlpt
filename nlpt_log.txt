@@ -1,0 +1,38 @@
+py3
+author: akv17 / https://github.com/akv17
+
+
+TREE:
+    utils
+    vsm
+    nn
+    rnn
+
+
+PACK:
+
+
+utils:
+    runtime                         [31.01.18]
+    fix_word                        [31.01.18]
+    fix_line                        [31.01.18]
+    fix_line_as_str                 [31.01.18]
+    load_mystem (needs improv)      [31.01.18]
+    fW2I                            [31.01.18]
+    W2I_native                      [31.01.18]
+    L2I (deprecate?)                [31.01.18]
+
+
+vsm:
+    w2v_sliding_window                                  [31.01.18]
+    d2v_sliding_window                                  [31.01.18]
+    W2V (optimize embedding lookup, add decaying sgd)   [31.01.18]
+    D2V (add decaying sgd)                              [31.01.18]
+    
+    
+nn:
+    batch_generator     [31.01.18]
+    CNN                 [31.01.18]
+
+
+rnn:
