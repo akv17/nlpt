@@ -7,6 +7,7 @@ TREE:
     vsm
     nn
     rnn
+    hmm
 
 
 PACK:
@@ -26,7 +27,7 @@ utils:
 vsm:
     w2v_sliding_window                                  [31.01.18]
     d2v_sliding_window                                  [31.01.18]
-    W2V (optimize embedding lookup, add decaying sgd)   [31.01.18]
+    W2V (optimize embedding lookup)                     [1.02.18]
     D2V (add decaying sgd)                              [31.01.18]
     
     
@@ -37,3 +38,8 @@ nn:
 
 rnn:
     *rnn\lyrics\keras_gen_rnn* + (fW2I fix)
+    
+  
+hmm:
+    L_HMM       [1.02.18]
+    D_HMM       [1.02.18]
