@@ -25,10 +25,13 @@ utils:
 
 
 vsm:
+    co_occur_dist                                       [3.02.18]
+    cosine_sim                                          [3.02.18]
     w2v_sliding_window                                  [31.01.18]
     d2v_sliding_window                                  [31.01.18]
     W2V (optimize embed lookup + add subsampling)       [31.02.18]
     D2V (add decaying sgd)                              [31.01.18]
+    GloVe (optimize sampling)                           [3.02.18]
     
     
 nn:
